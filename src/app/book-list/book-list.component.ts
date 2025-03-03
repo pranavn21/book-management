@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
 import { Book } from '../models/book';
-import {AddBook, RemoveBook} from '../books/books.actions'
+import {AddBook, RemoveBook} from '../books/book.actions'
 import { AppState } from '../app.state';
 
 @Component({
